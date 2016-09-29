@@ -1,0 +1,38 @@
+{
+    "name": "serfhos/your-website",
+    "description": "TYPO3 CMS: your-website.com",
+    "keywords": [
+        "TYPO3",
+        "cms",
+        "Serfhos"
+    ],
+    "homepage": "http://www.your-website.com",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Benjamin Serfhos",
+            "email": "serfhos@rsm.nl",
+            "homepage": "http://serfhos.com"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "public"
+        }
+    },
+    "require": {
+        "typo3/cms": "^7.6",
+        "typo3-ter/RealURL": "^2.0",
+        "typo3-ter/coreapi": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        }
+    ]
+}

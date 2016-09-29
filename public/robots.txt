@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3conf/
+Disallow: /*?type=
+Disallow: /*&type=
+Disallow: /*_cldee=
+Disallow: /*_escaped_fragment_
