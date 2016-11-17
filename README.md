@@ -3,6 +3,10 @@ TYPO3 Bootstrap: Basic installation for websites setup
 This example contains TYPO3 7.6 and 2 TER extensions (coreapi and RealURL).
  
  
+Use as blueprint for your starting website
+------------------------------------------
+Run `composer create-project -sdev koninklijke-collective/typo3-bootstrap my/project/dir`
+ 
 Detailed information
 --------------------
 
