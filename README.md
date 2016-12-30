@@ -1,5 +1,10 @@
 TYPO3 Bootstrap: Basic installation for websites setup
 ======================================================
+                        
+[![Latest Stable Version](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/version)](https://packagist.org/packages/koninklijke-collective/typo3-bootstrap) 
+[![Latest Unstable Version](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/v/unstable)](//packagist.org/packages/koninklijke-collective/typo3-bootstrap) 
+[![Total Downloads](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/downloads)](https://packagist.org/packages/koninklijke-collective/typo3-bootstrap)
+
 This example contains TYPO3 7.6 and 2 TER extensions (coreapi and RealURL).
  
  
