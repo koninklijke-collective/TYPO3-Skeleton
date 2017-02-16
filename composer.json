@@ -24,7 +24,7 @@
         }
     },
     "require": {
-        "php" : "^5.5 || ^7.0",
+        "php": "^5.5 || ^7.0",
         "typo3/cms": "^7.6",
         "typo3-ter/RealURL": "^2.0",
         "typo3-ter/coreapi": "^1.3"
@@ -38,8 +38,17 @@
             "url": "https://composer.typo3.org/"
         }
     ],
-    "post-create-project-cmd": [
-        "build/post-create-project.sh",
-        "rm build/post-create-project.sh"
-    ]
+
+    "scripts": {
+        "post-create-project-cmd": [
+            "build/post-create-project.sh",
+            "rm build/post-create-project.sh"
+        ],
+        "force-reinstall": [
+            "rm -rf vendor/",
+            "unlink public/typo3",
+            "unlink public/index.php",
+            "@composer install"
+        ]
+    }
 }
