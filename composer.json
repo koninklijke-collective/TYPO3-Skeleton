@@ -1,7 +1,6 @@
 {
     "name": "koninklijke-collective/typo3-bootstrap",
     "type": "project",
-    "version": "1.0.0",
     "description": "TYPO3 CMS: your-website.com",
     "keywords": [
         "TYPO3",
