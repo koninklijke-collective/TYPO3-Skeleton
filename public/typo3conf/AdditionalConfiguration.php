@@ -23,10 +23,9 @@ switch (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext()) {
 if (is_file(PATH_site_root . '/release')) {
     $release = include PATH_site_root . '/release';
     if (!empty($release)) {
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::appendToTypoConfVars('SYS', 'sitename', ' [' . substr($release, 0, 8) . ']');
+        $GLOBALS['TYPO3_CONF_VARS']['SYS']['sitename'] .= ' [' . substr($release, 0, 8) . ']';
     }
 }
-
 
 // Load server setup
 if (is_file(PATH_site_root . '/config/configuration.php')) {
