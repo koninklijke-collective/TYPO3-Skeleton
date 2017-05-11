@@ -8,15 +8,13 @@ if (!defined('PATH_site_root')) {
     define('PATH_site_root', dirname(realpath(PATH_site)));
 }
 
-switch (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext()) {
-    case 'Development':
-        @include(PATH_site_root . '/config/defaults/development.php');
-        break;
-    case 'Production/Staging':
-        @include(PATH_site_root . '/config/defaults/acceptance.php');
-        break;
-    default:
-        @include(PATH_site_root . '/config/defaults/production.php');
+$environment = \TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext();
+if ($environment->isDevelopment()) {
+    @include(PATH_site_root . '/config/defaults/development.php');
+} elseif($environment->isTesting()) {
+    @include(PATH_site_root . '/config/defaults/testing.php');
+} else {
+    @include(PATH_site_root . '/config/defaults/production.php');
 }
 
 // Display current release

@@ -1,6 +1,8 @@
 <?php
 defined('TYPO3_MODE') or die ('Access denied.');
 
+// Development - used for development
+
 \TYPO3\CMS\Core\Utility\ArrayUtility::mergeRecursiveWithOverrule($GLOBALS['TYPO3_CONF_VARS'], [
     'BE' => [
         'debug' => true,
