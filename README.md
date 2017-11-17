@@ -1,16 +1,16 @@
 TYPO3 Bootstrap: Basic installation for websites setup
 ======================================================
                         
-[![Latest Stable Version](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/version)](https://packagist.org/packages/koninklijke-collective/typo3-bootstrap) 
-[![Latest Unstable Version](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/v/unstable)](//packagist.org/packages/koninklijke-collective/typo3-bootstrap) 
-[![Total Downloads](https://poser.pugx.org/koninklijke-collective/typo3-bootstrap/downloads)](https://packagist.org/packages/koninklijke-collective/typo3-bootstrap)
+[![Latest Stable Version](https://poser.pugx.org/koninklijke-collective/typo3-skeleton/version)](https://packagist.org/packages/koninklijke-collective/typo3-skeleton) 
+[![Latest Unstable Version](https://poser.pugx.org/koninklijke-collective/typo3-skeleton/v/unstable)](//packagist.org/packages/koninklijke-collective/typo3-skeleton) 
+[![Total Downloads](https://poser.pugx.org/koninklijke-collective/typo3-skeleton/downloads)](https://packagist.org/packages/koninklijke-collective/typo3-skeleton)
 
 This example contains TYPO3 7.6 and 2 TER extensions (coreapi and RealURL).
  
  
 Use as blueprint for your starting website
 ------------------------------------------
-Run `composer create-project -sdev koninklijke-collective/typo3-bootstrap my/project/dir`
+Run `composer create-project -sdev koninklijke-collective/typo3-skeleton my/project/dir`
  
 Detailed information
 --------------------
@@ -33,4 +33,4 @@ Questions?
 ----------
 
 Feel free to create an issue in this repository! 
-* https://github.com/bmoex/TYPO3-Bootstrap/issues 
+* https://github.com/koninklijke-collective/TYPO3-Skeleton/issues 
